@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="164019" started-at="2021-08-15T16:31:21 IST" finished-at="2021-08-15T16:34:05 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginRunner@26aa12dd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="164019" started-at="2021-08-15T16:31:21 IST" finished-at="2021-08-15T16:34:05 IST">
+      <class name="runner.LoginRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.LoginRunner@26aa12dd]" name="setUpClass" is-config="true" duration-ms="576" started-at="2021-08-15T16:31:21 IST" finished-at="2021-08-15T16:31:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginRunner@26aa12dd]" name="feature" duration-ms="163220" started-at="2021-08-15T16:31:22 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-15T16:34:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.LoginRunner@26aa12dd]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2021-08-15T16:34:05 IST" finished-at="2021-08-15T16:34:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.LoginRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
